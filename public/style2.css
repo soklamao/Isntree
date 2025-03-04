@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Sigmar&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.btn{
+    @apply w-24 h-10 border-4 text-white rounded-full shadow-md mx-2;
+}
+.bl{
+    @apply block p-2 rounded-lg ;
+}
+.hover{
+    @apply py-1 rounded-full hover:bg-gray-500 px-2 sm:px-2 md:px-3 lg:px-5 xl:px-5;
+}
+.over2{
+    @apply hover:bg-slate-700 rounded-full px-1 py-1 transition-colors duration-200;
+}
+.flexx{
+    @apply flex-col place-items-center text-black transition-all duration-200 ease-in-out hover:text-white;
+}
+.hover3{
+    @apply font-bold text-black hover:bg-sking-0 transition-all duration-200 ease-in-out hover:text-white rounded px-3 py-2;
+}
+.skinc{
+    @apply text-white uppercase lg:w-auto w-32  tracking-widest bg-sking-0 hover:bg-slate-900 transition-all duration-200    font-bold font-jos lg:text-xs text-[10px] lg:rounded rounded-2xl   lg:px-2 px-4 lg:py-4 py-6  mx-3;
+}
+
